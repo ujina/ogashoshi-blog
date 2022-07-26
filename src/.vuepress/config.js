@@ -26,7 +26,7 @@ module.exports = {
       nickname: 'ogashoshi',
 
       // Introduction of yourself (HTML supported)
-      description: 'おせっかいな行政書士',
+      description: 'おせっかい行政書士',
 
       // Email
       email: 'ogashoshi@gmail.com',
@@ -105,8 +105,9 @@ module.exports = {
       nav: [
         { text: 'Home', link: '/', exact: true },
         { text: 'Posts', link: '/posts/', exact: false },
+        { text: 'OGASHOSHI', link: 'https://ogashoshi.com/', exact: false },
       ],
-  
+
       // Enable smooth scrolling or not
       smoothScroll: true,
   
