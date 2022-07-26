@@ -3,7 +3,7 @@ module.exports = {
     title: 'BLOG',
   
     // Description of your website
-    description: 'This is my blog',
+    description: 'This is ogashoshi blog',
   
     // Language of your website
     locales: {
@@ -23,16 +23,16 @@ module.exports = {
     // Personal infomation (delete the fields if you don't have / don't want to display)
     personalInfo: {
       // Nickname
-      nickname: 'ogashoshi',
+      nickname: 'OGASHOSHI',
 
       // Introduction of yourself (HTML supported)
-      description: 'おせっかい行政書士',
+      description: 'OGASHOSHIのブログです',
 
       // Email
       email: 'ogashoshi@gmail.com',
 
       // Your location
-      location: 'Hiroshima City, Japan',
+      location: ' Ujina Hiroshima City, Japan',
 
       // Your organization
       organization: 'ogashoshi',
@@ -63,7 +63,6 @@ module.exports = {
         // The background of the header. You can choose to use an image, or to use random pattern (geopattern)
         background: {
           // URL of the background image. If you set the URL, the random pattern will not be generated, and the `useGeo` will be ignored.
-          
   
           // Use random pattern. If you set it to `false`, and you don't set the image URL, the background will be blank.
           useGeo: false
@@ -91,7 +90,7 @@ module.exports = {
         // The background of the info card's header. You can choose to use an image, or to use random pattern (geopattern)
         headerBackground: {
           // URL of the background image. If you set the URL, the random pattern will not be generated, and the `useGeo` will be ignored.
-          url: '/img/b.svg',
+          url:  '/img/b.svg',
   
           // Use random pattern. If you set it to `false`, and you don't set the image URL, the background will be blank.
           useGeo: true,
@@ -103,7 +102,7 @@ module.exports = {
   
       // The content of your navbar links
       nav: [
-        { text: 'Home', link: '/', exact: true },
+        { text: 'Blog', link: '/', exact: true },
         { text: 'Posts', link: '/posts/', exact: false },
         { text: 'OGASHOSHI', link: 'https://ogashoshi.com/', exact: false },
       ],
