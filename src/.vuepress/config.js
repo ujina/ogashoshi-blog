@@ -18,7 +18,7 @@ module.exports = {
     // Theme config
   themeConfig: {
     // Language of this theme. See the [Theme Language] section below.
-    lang: 'ja',
+    lang: 'ja-JP',
 
     // Personal infomation (delete the fields if you don't have / don't want to display)
     personalInfo: {
@@ -82,7 +82,7 @@ module.exports = {
         poweredByTheme: true,
   
         // Add your custom footer (HTML supported)
-        custom: 'Copyright 2018-present <a href="https://github.com/meteorlxy" target="_blank">meteorlxy</a> | MIT License',
+        custom: false,
       },
   
       // Info Card Config (Optional)
@@ -118,7 +118,7 @@ module.exports = {
       // Comments config. See the [Posts Comments] section below.
       comments: {
         owner: 'ogashoshi',
-        repo: 'vuepress-theme-meteorlxy',
+        repo: 'ogashoshi',
         clientId: 'MY_CLIENT_ID',
         clientSecret: 'MY_CLIENT_SECRET',
       },
